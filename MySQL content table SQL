@@ -1,0 +1,4 @@
+CREATE TABLE 'joinhello';
+select * from joinhello;
+alter table joinhello modify hid int auto_increment;
+INSERT INTO JOINHELLO (id, greeting) VALUE('admin','this is test ');
